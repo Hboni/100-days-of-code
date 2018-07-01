@@ -11,6 +11,10 @@
 ### Jour 1: 1 Juillet 2018
 ##### Création du projet de streaming avec Raspberry PI
 
-**Avancement**: Création d'un nouveau repository pour un projet de communication en local avec mon raspberry pi. Premiers tests d'utilisation de la toolbox socket pour la communication en TCP.
+**Objectif** Projet de communication en local (TCP/IP) sous python
 
-**Idées** Pour l'instant c'est une communication simple d'envoie de message. Il faudrait que je premette l'envoi de plusieurs messages, et d'arrêter à un message précis et non plus dès le premier message.
+**Avancement**: 
+ - Création d'un nouveau [repository](https://github.com/Hboni/Raspberry-stream.git) pour un projet de communication en local avec mon raspberry pi. 
+ - Premiers tests d'utilisation de la toolbox socket ([exemple ici](http://apprendre-python.com/page-reseaux-sockets-python-port)) pour la communication en TCP, et création de classes Client et Server !
+
+**Et pour demain ?** Il faudrait que je premette l'envoi de plusieurs messages, et d'arrêter à un message précis et non plus dès le premier message.
