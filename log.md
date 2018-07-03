@@ -1,33 +1,47 @@
 # 100 Days Of Code - Log
 
-### Jour 0: 30 Juin 2018
-##### Mise en place et préparation
+### Day 0: June 30, 2018
+##### Preparation
 
-**Avancement**: Forked le projet initial de 100 Days of code.
+**Details**: Forked the initial 100 Days of code project.
 
-**Idées:** Je pense commencer par essayer de tester la création d'une app en python pour communiquer en local avec mon raspberry pi.
-
-
-### Jour 1: 1 Juillet 2018
-##### Création du projet de streaming avec Raspberry PI
-
-**Objectif** Projet de communication en local (TCP/IP) sous python
-
-**Avancement**: 
- - Création d'un nouveau [repository](https://github.com/Hboni/Raspberry-stream.git) pour un projet de communication en local avec mon raspberry pi. 
- - Premiers tests d'utilisation de la toolbox socket ([exemple ici](http://apprendre-python.com/page-reseaux-sockets-python-port)) pour la communication en TCP, et création de classes Client et Server !
-
-**Et pour demain ?** Il faudrait que je premette l'envoi de plusieurs messages, et d'arrêter à un message précis et non plus dès le premier message.
+**Thought:** I think i'll begin by trying to create a python app to communicate locally with my Raspberry pi.
 
 
-### Jour 2: 2 Juillet 2018
-##### Update du serveur et du client pour envoyer plusieurs messages
+### Day 1: July 1, 2018
+##### Creation of the streaming Raspberry pi
 
-**Objectif** Envoi de plusieurs messages sur un server
+**Today's focus** Project of TCP/IP local communication under python
 
-**Avancement**
- - Ajout de la possibilité d'envoyer plusieurs messages sur le server sans qu'il se ferme
- - Utilisation d'un mot clé pour fermer le server
- - J'ai utilisé le socket.settimeout() pour permettre d'attendre un peut avec le socket.recv() voir si quelque chose est reçu.
+**Details**: 
+ - Creation of a new [repository](https://github.com/Hboni/Raspberry-stream.git) for a local communication project with my raspberry pi.
+ - First test of the socket toolbox use ([example here](http://apprendre-python.com/page-reseaux-sockets-python-port))for the TCP communication.
+ - Creation of Client and Server classes.
+
+**For tomorrow:** I would like to try to send several messages from the client to the server, and to stop it with a word.
+
+
+### Day 2: July 2, 2018
+##### Server and Client update to send several messages
+
+**Today's focus** Send several messages to the server
+
+**Details**
+ - Add the possibility to send several messages to the server without closing it.
+ - Use of the "fin" keyword to stop the server.
+ - I used socket.settimeout() to wait to see if something was send by the server, and received by socket.recv().
  
-**Et pour demain ?** Je vais continuer l'amélioration de mes classes, en essayant d'envoyer des fichiers.
+**For tomorrow:** I'm going to upgrade my classes to send files
+
+### Day 3: July 3, 2018
+##### Communication with Raspberry pi
+
+**Today's focus** First tries to communicate with my Raspberry pi
+
+**Details**
+ - Add the possibility to use different address and different port to communicate (for Server and Client).
+ - Test the use of my functions on my raspberry pi.
+ - Finaly communicate with Raspberry pi, with server on it and Cient on my computer, using the RP address.
+ - Ass an option to open web browser on server-side (Not tested!).
+ 
+ **For tomorrow:** I'll try to use the web-launch option on raspberry pi.
