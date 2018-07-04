@@ -45,3 +45,8 @@
  - Ass an option to open web browser on server-side (Not tested!).
  
  **For tomorrow:** I'll try to use the web-launch option on raspberry pi.
+
+### Day 4: July 4, 2018
+##### Other tests on Raspberry pi
+
+**Today's focus** Try to communicate with raspberry to launch web brosser. 
