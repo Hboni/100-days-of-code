@@ -49,4 +49,9 @@
 ### Day 4: July 4, 2018
 ##### Other tests on Raspberry pi
 
-**Today's focus** Try to communicate with raspberry to launch web brosser. 
+**Today's focus** Try to communicate with raspberry to launch web browser.
+
+### Day 5: July 5, 2018
+##### Prepare for ann client interface
+
+**Today'd focus** Installing Qt and PyQt, and begin to create an interface.
