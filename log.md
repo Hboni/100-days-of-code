@@ -55,3 +55,15 @@
 ##### Prepare for ann client interface
 
 **Today'd focus** Installing Qt and PyQt, and begin to create an interface.
+
+### Day 6: July 6, 2018
+##### First client UI
+
+**Today's focus** Create an UI for the client.
+
+**Details**
+ - Finish the installation of pyQt and use the good interpreter in Pycharm.
+ - Create a first window open by a script
+ - Show a Qlabel and a button
+ - Add some parameters to fill "address" and "port"
+ 
