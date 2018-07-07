@@ -67,3 +67,17 @@
  - Show a Qlabel and a button
  - Add some parameters to fill "address" and "port"
  
+### Day 7: July 7, 2018
+##### Improve UI and connect some action
+
+**Today's focus** Finalize a first version of the ui with the connection to a server.
+
+**Details**
+ - Add some GroupBox in the ui for a better organization
+ - Add an image for more color ! 
+ - Connect the "connect" button to try to connect to a server
+ - Add a state information to now if connected or not
+ 
+**For tomorrow** 
+ - I have to add some exception and warning message in case of trying to connect to server with bad address/port, or to connect to a server not launched. 
+ - To improve my Client class, I maybe have the possibility to initiate my class without trying to connect to server directly
