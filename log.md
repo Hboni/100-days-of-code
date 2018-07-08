@@ -81,3 +81,17 @@
 **For tomorrow** 
  - I have to add some exception and warning message in case of trying to connect to server with bad address/port, or to connect to a server not launched. 
  - To improve my Client class, I maybe have the possibility to initiate my class without trying to connect to server directly
+
+### Day 8: July 8, 2018
+##### Add parameters check and functionnalities
+
+**Today's focus** Improve connection by checking parameters before trying to connect, add a default button and an error label.
+
+**Details**
+ - Creaete a class function "check_param" to type check address and port
+ - Add a Qlabel which show param and connection error
+ - Add a button to fill auto the address lineedit with 'localhost'
+ 
+**For tomorrow**
+ - Add the possibility to show several error messages
+ - Add a colored circle in the state
