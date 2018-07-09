@@ -88,10 +88,24 @@
 **Today's focus** Improve connection by checking parameters before trying to connect, add a default button and an error label.
 
 **Details**
- - Creaete a class function "check_param" to type check address and port
+ - Create a class function "check_param" to type check address and port
  - Add a Qlabel which show param and connection error
  - Add a button to fill auto the address lineedit with 'localhost'
  
 **For tomorrow**
  - Add the possibility to show several error messages
  - Add a colored circle in the state
+
+### Day 9: July 9, 2018
+##### Improve errors
+
+**Today's focus** Add error and create output box
+
+**Details**
+ - Add an error when trying to send address without connected
+ - Create a box with two lines of errors
+ - Set errors output red
+ 
+**For tomorrow**
+ - Trying again to create a state circle
+ - Tests with raspberry pi
