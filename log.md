@@ -109,3 +109,13 @@
 **For tomorrow**
  - Trying again to create a state circle
  - Tests with raspberry pi
+
+### Day 10: July 10, 2018
+##### Add circle states
+
+**Today's focus** Add color circle state
+
+**Details**
+ - Add a red/green circle in the state box for not connected/connected state
+ - Comment code
+ 
